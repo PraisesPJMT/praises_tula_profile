@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script defer src="./js/index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="profile-picture">
+          <img
+            src="./images/Profile Picture.jpeg"
+            alt="Praises Tula"
+            data-testid="slackDisplayImage"
+          />
+        </div>
+
+        <div class="profile-info">
+          <h1 data-testid="slackUserName">Praises Tula</h1>
+
+          <p>
+            <strong>Current Date: </strong>
+            <span data-testid="currentDayOfTheWeek">Loading...</span>
+          </p>
+          <p>
+            <strong>Current Time: </strong>
+            <span data-testid="currentUTCTime">Loading...</span>
+          </p>
+          <p data-testid="myTrack">
+            <strong>Track: </strong> <span data-testid="myTrack">Frontend</span>
+          </p>
+          <a
+            href="https://github.com/PraisesPJMT/praises_tula_profile"
+            data-testid="githubURL"
+            target="_blank"
+          >
+            <img src="./images/github.png" alt="Slack Logo" />
+            GitHub Repository</a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
